@@ -31,7 +31,7 @@ header{
     align-items: center;
 }
 .logo h1 b{
-    color:#4284E6;
+    color:#d84343;
 }
 .menu{
     height: 80px;
@@ -57,7 +57,7 @@ header{
     content: '';
     width: 100%;
     height: 4px;
-    background:#4284E6;
+    background:#d84343;
     position: absolute;
     top: 0;
     left: 0;
@@ -76,7 +76,7 @@ header{
 
 .menu .text-menu-selected
 {
-    color: #4284E6;
+    color: #cc2c27;
 } 
 /* cover page */
 
@@ -84,17 +84,17 @@ header{
     width: 100%;
     height: 500px;
     position: relative;
-    top:80px;
+    margin-top: 80px;
 background-image: url(../img/Gaalaxy-S20-wallpaper-1.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 }
-.container-cover::before{
+.container-cover:before{
     content: '';
     width: 100%;
     height: 100%;
-    background: #4284E6;
+    background: #d84343;
     top: 0;
     left: 0;
 }
@@ -122,4 +122,163 @@ z-index: 1;
     color:white;
     font-size: 20px;
     font-weight: 300;
+}
+/* container-content */
+.container-content{
+width: 1200px;
+margin: auto;
+margin-top: 40px;
+display: flex;
+justify-content: center;
+}
+
+article{
+width:100%;
+padding: 20px;
+padding-bottom: 40px;
+box-shadow: -10px 0 20px -30px black;
+border-radius: 6px;
+position: relative;
+overflow: hidden;
+}
+
+article:before{
+    content:'';
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    top:0;
+    left:0;
+    background:#d84343 ;
+
+}
+
+article h1{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 40px;
+}
+article p{
+margin-top:20px ;
+font: size 18px; ;
+color: #777777;
+}
+
+article img {
+width: 100%;
+margin-top: 20px;
+
+
+}
+
+/* aside de los articles relacionados */
+
+.container-aside aside{
+width: 320px;
+box-shadow: 0 0 20px -20px black;
+border-radius: 6px;
+overflow: hidden;
+margin-left: 40px;
+margin-bottom: 40px;
+padding-bottom: 20px;
+}
+
+.container-aside aside img{
+    width: 100%;
+    max-width: 100%;
+   
+   
+}
+
+.container-aside aside h2,
+.container-aside aside p
+{
+margin-top: 20px;
+padding: 0px 20px;
+
+}
+
+.container-aside aside button{
+    margin-top:20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #cc2c27;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.container-aside aside button:hover{
+    opacity: 0.9;
+}
+/*footer-pie de pajina */
+
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background-color:#f7f7f7;
+    margin-top: 40px;
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.container-footer footer .logo-footer{
+    text-align: center;
+
+}
+
+.container-footer footer .logo-footer img{
+    width: 100px;
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-footer footer .redes-footer .icon-redes-footer{
+    font-size: 20px;
+    margin: 20px;
+  background: #efefef;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color:#a2a2a2;
+
+}
+ footer .redes-footer .fa-facebook-square:hover{
+    background:#41579A;
+    color: #fff;
+
+}
+
+footer .redes-footer .fa-instagram-square:hover{
+    background:#DE4C34 ;
+    color: #fff;
+}
+footer .redes-footer .fa-youtube-square:hover{
+    background :linear-gradient(to top right, #fcde30, #e9712a, #d2313b, #ae4198, #7540a1,#5443a8) ;
+    color: #fff;
+}
+
+.container-footer hr{
+margin-top: 20px;
+border: none;
+height: 2px;
+background: #a8a8a8;
+}
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color:#a8a8a8 ;
+    font-weight: 500px;
 }
