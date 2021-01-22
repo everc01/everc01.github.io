@@ -82,7 +82,7 @@ header{
 
 .container-cover{
     width: 100%;
-    height: 500px;
+   height: 500px;
     position: relative;
     margin-top: 80px;
 background-image: url(../img/Gaalaxy-S20-wallpaper-1.png);
@@ -167,6 +167,8 @@ color: #777777;
 article img {
 width: 100%;
 margin-top: 20px;
+max-width: 400px;
+max-height: 400px;
 
 
 }
@@ -185,8 +187,8 @@ padding-bottom: 20px;
 
 .container-aside aside img{
     width: 100%;
-    max-width: 100%;
-   
+   max-width: 200px;
+   max-height: 200px;
    
 }
 
@@ -233,7 +235,12 @@ padding: 0px 20px;
 }
 
 .container-footer footer .logo-footer img{
-    width: 100px;
+    width:100% ;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    
+ 
 }
 
 .container-footer footer .redes-footer{
@@ -258,14 +265,13 @@ padding: 0px 20px;
  footer .redes-footer .fa-facebook-square:hover{
     background:#41579A;
     color: #fff;
-
 }
 
-footer .redes-footer .fa-instagram-square:hover{
+footer .redes-footer .fa-youtube-square:hover{
     background:#DE4C34 ;
     color: #fff;
 }
-footer .redes-footer .fa-youtube-square:hover{
+footer .redes-footer .fa-instagram-square:hover{
     background :linear-gradient(to top right, #fcde30, #e9712a, #d2313b, #ae4198, #7540a1,#5443a8) ;
     color: #fff;
 }
